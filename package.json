@@ -1,6 +1,6 @@
 {
   "name": "node-atplatform",
-  "version": "2.0.0",
+  "version": "3.0.1",
   "description": "Advantech IIoT platform module",
   "main": "bin/atplatform.js",
   "keywords": [
@@ -8,11 +8,13 @@
     "Advantech",
     "IIoT"
   ],
-  "engines" : { "node" : ">=10.0.0 <11.0.0" },
   "repository": {
     "type": "git",
     "url": "https://github.com/Advantech-IIoT/node-atplatform"
   },
-  "author": "Aaron.Li",
-  "license": "Apache-2.0"
+  "author": "Payton.Ko",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "node-addon-api": "^5.0.0"
+  }
 }

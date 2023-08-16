@@ -3,8 +3,10 @@ Node.js Integration for Advantech IIoT platform function.
 
 Notice that an Advantech IIoT Platform SDK have to be installed to make this node works correctly.
 Advantech IIoT Platform SDK download link is shown below:
+
 Windows:
   https://github.com/Advantech-IIoT/Platform-SDK/tree/master/windows/bin
+
 Linux:
   https://github.com/Advantech-IIoT/Platform-SDK/tree/master/linux/bin
 
@@ -96,13 +98,14 @@ console.log(platform.hwmonGetInfo(platform.TOPIC_ALL));
 
 
 ## Tested Platform
-- Windows 10 Enterprise LTSB with node.js 10.15.3
+- Windows 10 Enterprise LTSB with node.js 18.14.1
 
 
 ## History
-- 2.0.0 - November 2019 : update for NODE_MODULE_VERSION=64
+- 3.0.1 - June 2023 : update for NODE_MODULE_VERSION=108 (C++ addons use Node-API)
+- 2.0.0 - November 2019 : update for NODE_MODULE_VERSION=64 (C++ addons use Native Abstractions for Node.js)
 - 0.0.1 - March 2018 : Initial Release
 
 
 ## License
-Copyright 2019 ADVANTECH Corp. under [the Apache 2.0 license](LICENSE).
+Copyright 2023 ADVANTECH Corp. under [the Apache 2.0 license](LICENSE).
